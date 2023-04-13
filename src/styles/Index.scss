@@ -1,0 +1,62 @@
+@font-face {
+    font-family: montserrat-bold;
+    src: url('../fonts/montserrat-bold-webfont.woff');
+}
+
+@font-face {
+    font-family: montserrat-semi-bold;
+    src: url('../fonts/montserrat-semibold-webfont.woff');
+}
+
+@font-face {
+    font-family: montserrat-semi-bold2;
+    src: url('../fonts/montserrat-semibold-webfont.woff2');
+}
+
+@font-face {
+    font-family: montserrat-medium;
+    src: url('../fonts/montserrat-medium-webfont.woff');
+}
+
+@font-face {
+    font-family: montserrat-medium1;
+    src: url('../fonts/montserrat-medium-webfont.woff2');
+}
+
+@font-face {
+    font-family: lora-regular;
+    src: url('../fonts/lora-regular-webfont.woff');
+}
+
+@font-face {
+    font-family: lora-regular2;
+    src: url('../fonts/lora-regular-webfont.woff2');
+}
+
+@font-face {
+    font-family: montserrat-light;
+    src: url('../fonts/montserrat-light-webfont.woff');
+}
+
+@font-face {
+    font-family: montserrat-light2;
+    src: url('../fonts/montserrat-light-webfont.woff2');
+}
+
+:root { 
+    --base-color: #39b54a;
+    --secondary-color: #6bc877;
+    --white-color: #FFFFFF;
+    --black-color: black;
+    --grey-color: #757575;
+
+    --montserrat-bold: montserrat-bold, sans-serif;
+    --montserrat-semi-bold: montserrat-semi-bold, sans-serif;
+    --montserrat-semi-bold2: montserrat-semi-bold2, sans-serif;
+    --montserrat-medium: montserrat-medium, sans-serif;
+    --montserrat-medium2: montserrat-medium2, sans-serif;
+    --montserrat-light: montserrat-light, sans-serif;
+    --montserrat-light2: montserrat-light2, sans-serif;
+    --lora-regular: lora-regular, sans-serif;
+    --lora-regular2: lora-regular2, sans-serif;
+}

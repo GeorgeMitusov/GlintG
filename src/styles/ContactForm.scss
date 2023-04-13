@@ -1,0 +1,124 @@
+.contact-form {
+    width: 100%;
+    height: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+    .message-success {
+        width: 100%;
+        padding: 2.5rem;
+        margin-bottom: 3.6rem;
+        background-color: #111111;
+
+        .success-msg {
+            font: 1rem var(--montserrat-light);
+            color: var(--base-color); 
+            line-height: 2;
+        }
+    }
+
+    .contact-form-box {
+        width: 100%;
+
+        & input:focus {
+            border-bottom: 1px solid var(--base-color);
+        }
+
+        & textarea:focus {
+            border-bottom: 1px solid var(--base-color);
+        }
+
+        input,
+        .contactMessage {
+            width: 100%;
+            height: 60px;
+            padding: 15px 0px;
+            margin: 0px 0px 9px;
+            font: 14px var(--montserrat-light);
+            line-height: 3rem;
+            color: var(--white-color);
+            border: none;
+            border-bottom: 1px solid #222222;
+            outline: none;
+            background: transparent;
+            transition: all .3s ease-in-out;
+        }
+
+        .contact-form-box-title {
+            padding: .5rem 1.7rem;
+            margin: 0;
+
+            background-color: var(--base-color);
+            color: var(--white-color);
+
+            font: 10px var(--montserrat-light);
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: .1rem;
+            line-height: .7rem;
+            color: var(--white-color);
+
+            position: relative;
+            bottom: 21px;
+            left: 49%;
+            
+            transition: opacity .5s ease-in;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 22%;
+                left: 1%;
+                margin-left: -10px;
+                width: 0;
+                height: 0;
+
+                border-right: solid 7px var(--base-color);
+                border-top: solid 7px transparent;
+                border-bottom: solid 7px transparent;
+            }
+        }
+
+        .contact-form-box-title.require {
+            left: 65%;
+
+            &:after {
+                left: 1.5%;
+            }
+        }
+
+        .contact-form-box-title.textarea {
+            bottom: 25.5px;
+        }
+        
+        .contactMessage {
+            height: 255px;
+            resize: none;
+        }
+
+        .contact-form-submit-btn {
+            width: 100%;
+            height: 54px;
+
+            background-color: var(--base-color);
+            color: var(--white-color);
+            
+            letter-spacing: .3rem;
+            font: 12px var(--montserrat-medium);
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            white-space: nowrap;
+
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background-color: #33a242;
+            }
+        }
+    }
+}

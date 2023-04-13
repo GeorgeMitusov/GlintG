@@ -1,0 +1,116 @@
+.side-menu {
+    width: 13%;
+    height: 100vh;
+    background-color: #0C0C0C;
+    z-index: 99999;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+
+    .side-menu-container {
+        width: 80%;
+        height: 600px;
+        margin-top: 30px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h3 {
+                color: var(--base-color);
+                text-transform: uppercase;
+                font: 11px var(--montserrat-semi-bold);
+                letter-spacing: .2rem;
+            }
+
+            .close-icon {
+                cursor: pointer;
+            }
+        }
+
+        .side-menu-links {
+            width: 100%;
+            height: 270px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .side-menu-li {
+
+                .side-menu-link {
+                    color: var(--white-color);
+                    font: 16px var(--montserrat-medium);
+                }
+            }
+        }
+
+        .side-menu-desc {
+
+            p {
+                color: #FFFFFF40;
+                font: 13px var(--montserrat-light);
+                line-height: 1.3rem;
+
+                a {
+                    color: #FFFFFF80;
+                }
+            }
+        }
+        
+        .side-menu-social-links {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+
+            .side-menu-social-link {
+
+                a {
+
+                    .social-link-icon {
+                        color: #FFFFFF40;
+                        font-size: 1.3rem;
+                        transition: all 0.5s ease-in;
+
+                        &:hover {
+                            color: var(--white-color); 
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 1550px ) {
+    .side-menu {
+        width: 18%;
+    }
+}
+
+@media screen and ( max-width: 1050px ) {
+    .side-menu {
+        width: 25%;
+    }
+}
+
+@media screen and ( max-width: 700px ) {
+    .side-menu {
+        width: 40%;
+    }
+}
+
+@media screen and ( max-width: 550px ) {
+    .side-menu {
+        width: 50%;
+    }
+}

@@ -1,0 +1,60 @@
+.menu {
+    padding: .3rem 1rem;
+    font-size: 24px;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    right: 2%;
+    top: 25px;
+
+    span {
+        color: var(--base-color);
+        font: 13px var(--montserrat-medium);
+        font-weight: 500;
+        margin-right: 20%;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+
+    .menu-icon {
+        cursor: pointer;
+        color: var(--white-color);
+    }
+
+    &:hover {
+        span {
+            color: var(--white-color);
+            transition: all .5s ease;
+        }
+    }
+}
+
+.menu.sticky {
+    background-color: var(--black-color);
+    transition: all .5s ease;
+}
+
+@media screen and ( max-width: 700px ) {
+
+    .menu {
+        top: 25px;
+        right: 4%;
+    }
+
+}
+
+@media screen and ( max-width: 550px ) {
+
+    .menu {
+        right: 5%;
+        top: 25px;
+    }
+    
+}

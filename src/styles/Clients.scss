@@ -1,0 +1,187 @@
+.clients {
+    height: 1415px;
+    width: 100%;
+    padding: 162px 0px 168px;
+    background-color: #E6E6E6;
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .clients-container {
+        width: 63%;
+
+        .clients-container-top-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .clients-container-top-content-header {
+                width: 76%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    color: var(--base-color);
+                    font: 17px var(--montserrat-bold);
+                    line-height: 1.333;
+                    text-transform: uppercase;
+                    letter-spacing: .25rem;
+                }
+
+                h1 {
+                    text-align: center;
+                    font: 52px var(--montserrat-medium);
+                    margin: 6px 0px 18px;
+                    line-height: 1.255;
+                }
+            }
+
+            .clients-container-top-content-bottom-line {
+                width: 55%;
+                border-bottom: 1px solid #0000001A;
+                margin: 70px 25%;
+            }
+        }
+
+        .clients-container-bottom-content {
+            width: 100%;
+            height: 580px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+
+    .clients-content-line {
+        width: 3px;
+        height: 6.4rem;
+        background-color: var(--base-color);
+        position: absolute;
+        top: 452.2rem;
+        left: 50%;
+    }
+}
+
+@media screen and ( max-width: 1550px ) {
+    .clients {
+        height: 1425px;
+        padding: 120px 0px 100px; 
+
+        .clients-container {
+            width: 80%;
+        } 
+
+        .clients-content-line {
+            top: 452.9rem;
+        } 
+    }
+}
+
+@media screen and ( max-width: 1050px ) {
+    .clients {
+        height: 1270px;
+        padding: 100px 0px 80px;
+
+        .clients-container {
+            width: 95%;
+
+            .clients-container-top-content {
+
+                .clients-container-top-content-header {
+                    width: 80%;
+                    
+                    h1 {
+                        font-size: 44px;
+                    }
+                }
+            }
+
+            .clients-container-bottom-content {
+                height: 475px;
+            }
+        }
+
+        .clients-content-line {
+            top: 440.8rem;
+        } 
+    }
+}
+
+@media screen and ( max-width: 700px ) {
+    .clients {
+        height: 1300px;
+        padding: 75px 0px;
+
+        .clients-container {
+            height: 1150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            .clients-container-top-content {
+                width: 90%;
+
+                .clients-container-top-content-header {
+                    width: 100%;
+                    margin-top: 50px;
+
+                    h1 {
+                        font-size: 34px;
+                        margin: 6px 0px 18px;
+                    }
+                }
+            }
+        }
+
+        .clients-content-line {
+            top: 520.2rem;
+        } 
+    }
+}
+
+@media screen and ( max-width: 550px ) {
+    .clients {
+        height: 1250px;
+
+        .clients-container {
+            height: 1100px;
+            width: 97%;
+
+            .clients-container-top-content {
+                width: 95%;
+
+                .clients-container-top-content-header {
+                    margin-top: 25px;   
+
+                    h3 {
+                        font-size: 15px;
+                    }
+
+                    h1 {
+                        font-size: 28px;
+                    }
+                }
+
+                .clients-container-top-content-bottom-line {
+                    margin-top: 20px;
+                }
+            }
+
+            .clients-container-bottom-content {
+                height: 500px;
+            }
+        }
+
+        .clients-content-line {
+            top: 655.5rem;
+        }
+    }
+}

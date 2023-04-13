@@ -3,12 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animated-number-react": "^0.1.2",
+    "framer-motion": "^10.11.6",
+    "lightgallery": "^2.7.1",
     "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-animated-number": "^0.4.4",
+    "react-animated-numbers": "^0.16.0",
+    "react-awesome-animated-number": "^1.0.9",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-intersection-observer": "^9.4.3",
+    "react-loader-spinner": "^5.3.4",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-top-loading-bar": "^2.3.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.62.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +54,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "sass-loader": "^13.2.2"
   }
 }
