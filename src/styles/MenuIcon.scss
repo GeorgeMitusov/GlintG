@@ -41,20 +41,22 @@
     transition: all .5s ease;
 }
 
-@media screen and ( max-width: 700px ) {
 
-    .menu {
-        top: 25px;
-        right: 4%;
-    }
 
-}
+// @media screen and ( max-width: 700px ) {
 
-@media screen and ( max-width: 550px ) {
+//     .menu {
+//         top: 25px;
+//         right: 4%;
+//     }
 
-    .menu {
-        right: 5%;
-        top: 25px;
-    }
+// }
+
+// @media screen and ( max-width: 550px ) {
+
+//     .menu {
+//         right: 5%;
+//         top: 25px;
+//     }
     
-}
+// }

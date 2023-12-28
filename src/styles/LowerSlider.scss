@@ -125,7 +125,7 @@
     }
 }
 
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 768px ) {
     .lower-slick-slider {
         width: 96%;
 
@@ -159,6 +159,29 @@
         .slick-arrow-right {
             bottom: 446px;
             left: 445px;
+        }
+       
+        .lower-slider {
+
+            .lower-slide {
+
+                .lower-slide-profile {
+
+                    .lower-slide-profile-image {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 425px ) {
+    .lower-slick-slider {
+
+        .slick-arrow-right {
+            bottom: 446px;
+            left: 40px;
         }
        
         .lower-slider {
