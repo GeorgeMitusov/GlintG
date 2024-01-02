@@ -1,39 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: royalblue;
-    color: white;
-    background: var(--color-bg);
+  background-color: royalblue;
+  color: white;
+  background: var(--color-bg);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
+@media screen and (max-width: 1700px) {
+}
 
-@media screen and (max-width: 1700px) {}
+@media screen and (max-width: 1550px) {
+}
 
-@media screen and (max-width: 1550px) {}
+@media screen and (max-width: 1440px) {
+}
 
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1050px) {
+}
 
-@media screen and (max-width: 1050px) {}
+@media screen and (max-width: 768px) {
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 550px) {
+}
 
-@media screen and (max-width: 550px) {}
+@media screen and (max-width: 425px) {
+}
 
-@media screen and (max-width: 425px) {}
+@media screen and (max-width: 375px) {
+}
 
-@media screen and (max-width: 375px) {}
-
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+}

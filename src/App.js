@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App" onClick={switchMenuOff}>
       <AnimatePresence mode="wait">
-        {/* { loading ? (
+        { loading ? (
           <Loader/>
         ) : (
           <div>
@@ -42,17 +42,7 @@ function App() {
             <Contact />
             <Footer />
           </div>
-        ) } */}
-        <div>
-          <Main />
-          <ScrollToTopBtn />
-          <About />
-          <Job />
-          <Projects />
-          <Clients />
-          <Contact />
-          <Footer />
-        </div>
+        ) }
       </AnimatePresence>
     </div>
   );
